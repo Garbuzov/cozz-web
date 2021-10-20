@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "extensions": [".js", ".jsx"],
+        "root": ["./src"],
+        "alias": {
+          "root": ".",
+          "src": "/src",
+          "firebase": "@firebase"
+        }
+      }
+    ]
+  ]
+}
